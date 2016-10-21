@@ -5,13 +5,14 @@ import(
 	"net/http"
 	"gopkg.in/maciekmm/messenger-platform-go-sdk.v4"
 	"fmt"
+	"os"
 )
 
 func main(){
 	mess.MessageReceived = MessageReceived
 	http.HandleFunc("/",index)
 	http.HandleFunc("/webhook", mess.Handler)
-	log.Fatal(http.ListenAndServe(":80",nil))
+	log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"),nil))
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
