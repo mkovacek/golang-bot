@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "LEoTqeyBx2eoW4g/B6mvrqF7mAk=",
+			"path": "github.com/maciekmm/messenger-platform-go-sdk/template",
+			"revision": "d4827eb98b660821d2b332757f3aad98feeaf825",
+			"revisionTime": "2016-10-01T10:51:48Z"
+		},
+		{
+			"checksumSHA1": "cfy/B1TEFBakfhjiSwBB8AXI7Kk=",
+			"path": "gopkg.in/maciekmm/messenger-platform-go-sdk.v4",
+			"revision": "0cb6e825b6fb086b37ffee383ed3057f3a706d0c",
+			"revisionTime": "2016-08-25T11:18:41Z"
+		}
+	],
+	"rootPath": "golang-bot"
+}
